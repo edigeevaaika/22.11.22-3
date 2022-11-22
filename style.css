@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+main {
+display: flex;
+flex-wrap: wrap;
+}
+header {
+  padding: 10px 15px;
+  background-color: rgb(34, 214, 148);
+  flex: 1 1 100%;
+}
+
+aside {
+  background-color: rgb(27, 85, 104);
+  flex: 0 0 250px;
+  padding: 10px 15px;
+}
+article {
+  padding: 10px 15px;
+  background-color: rgb(70, 116, 37);
+  flex: 1 1 0;
+}
+footer {
+  background-color: rgb(158, 111, 55);
+  flex-wrap: wrap;
+}
