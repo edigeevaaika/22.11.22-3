@@ -25,3 +25,23 @@ footer {
   background-color: rgb(158, 111, 55);
   flex-wrap: wrap;
 }
+section {
+  background-color: rgb(152, 198, 200);
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-1 {
+max-width: 150px;
+margin: 10px;
+}
+.box-2{max-width: 150px;
+margin: 10px;
+}
+.box-3{
+max-width: 150px;
+margin: 10px;
+}
+.box-4 {
+ max-width: 150px;
+ margin: 10px;
+ }
