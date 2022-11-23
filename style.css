@@ -1,47 +1,50 @@
-*{
-  box-sizing: border-box;
-}
-main {
-display: flex;
-flex-wrap: wrap;
-}
-header {
-  padding: 10px 15px;
-  background-color: rgb(34, 214, 148);
-  flex: 1 1 100%;
-}
-
-aside {
-  background-color: rgb(27, 85, 104);
-  flex: 0 0 250px;
-  padding: 10px 15px;
-}
-article {
-  padding: 10px 15px;
-  background-color: rgb(70, 116, 37);
-  flex: 1 1 0;
-}
-footer {
-  background-color: rgb(158, 111, 55);
-  flex-wrap: wrap;
-}
-section {
-  background-color: rgb(152, 198, 200);
+*{box-sizing: border-box;}
+main{
   display: flex;
   flex-wrap: wrap;
+  max-width: 980px;
+  margin: 0 auto;
 }
-.box-1 {
-max-width: 150px;
-margin: 10px;
+
+header{
+  background-color: rgb(27, 248, 93);
+  flex: 1 1 100%;
+ 
 }
-.box-2{max-width: 150px;
-margin: 10px;
+article{
+  background-color: rgba(214, 184, 147, 0.952);
+  flex: 1 1 300px;
+
+}
+aside{
+  background-color: rgba(236, 183, 192, 0.44);
+  flex: 0 0 250px;
+}
+
+footer{
+  background-color: orange;
+  flex: 1  1 100%;
+}
+.lorem-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px;
+  background-color: rgba(0, 255, 255, 0.136);
+}
+.box-0{
+  max-width: 150px;
+  margin: 10px;
+}
+.box-1{
+  max-width: 150px;
+  margin: 10px;
+}
+.box-2{
+  max-width: 150px;
+  margin: 10px;
 }
 .box-3{
-max-width: 150px;
-margin: 10px;
+  max-width: 150px;
+  margin: 10px;
 }
-.box-4 {
- max-width: 150px;
- margin: 10px;
- }
